@@ -1,0 +1,18 @@
+#top {
+	height: 100%;
+	background-color: gray;
+}
+#top img {
+	max-width: 70px;
+	margin: 50px 0;
+}
+.my_block	{
+	height: 100px;
+	margin-top: 50px;
+	border: 2px solid #000;
+}
+.my_block > .col-xs-3 {
+	height: 50px;
+	background-color: green;
+	border: 2px dotted #0888c2;
+}
