@@ -1,0 +1,16 @@
+.header_fixed {
+	width: 100%;
+	height: 30px;
+	position: fixed;
+	background-color: red;
+}
+.my_block {
+	width: 400px;
+	height: 400px;
+	padding: 15px 20px 10px;
+	margin: 0 auto;
+	border: 3px solid #000;
+}
+.fixed_test {
+	height: 1000px;
+}
