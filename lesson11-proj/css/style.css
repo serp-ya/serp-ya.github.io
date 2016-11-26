@@ -1,0 +1,82 @@
+/* All fonts list:
+OpenSansBold
+OpenSansBoldItalic
+OpenSansCondBold
+OpenSansCondLight
+OpenSansCondLightItalic
+OpenSansExtrabold
+OpenSansExtraBoldItalic
+OpenSansItalic
+OpenSansLight
+OpenSansLightItalic
+OpenSansRegular
+OpenSansSemibold
+OpenSansSemiboldItalic
+*/
+/* подключение дополнительного css файла со всеми шрифтами из макета */
+@import url(fonts.css);
+/* Использовал такой метод, чтобы научиться ему (раньше использовал только гугл шрифты) */
+
+h1 {
+	font-family: 'OpenSansBold';
+}
+.header {
+	background-color: #f5f5f5;
+	height: 100vh;
+}
+.top-nav-bar {
+	margin-top: 4%;
+}
+.logo-border-box {
+	width: 149px;
+	height: 55px;
+	border: 4px solid #706b73;
+	text-align: center;
+	line-height: 47px;
+}
+.logo-border-box p {
+	font-family: 'OpenSansSemibold', sans-serif;
+	font-size: 36px;
+	color: #706b73;
+}
+.logo-border-box span {
+	color: #fc6744;
+}
+.burger {
+	text-align: right;
+}
+.burger > a {
+	width: 30px;
+}
+a > .b-line {
+	width: 30px;
+	height: 4px;
+	background-color: #706b73;
+	display: inline-block;
+}
+ .b-line::before, .b-line::after {
+	width: 30px;
+	height: 4px;
+	background-color: #706b73;
+	content: "";
+	display: block;
+}
+.b-line::before {
+-webkit-transform: translateY(-6px);
+-ms-transform: translateY(-6px);
+-o-transform: translateY(-6px);
+transform: translateY(-6px);
+}
+.b-line::after {
+-webkit-transform: translateY(2px);
+-ms-transform: translateY(2px);
+-o-transform: translateY(2px);
+transform: translateY(2px);
+}
+a > .b-line, .b-line::before, .b-line::after {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+}
