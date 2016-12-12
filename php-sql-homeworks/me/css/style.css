@@ -1,0 +1,47 @@
+dl {
+	margin-bottom: 10px;
+}
+dt, dd {
+	display: inline-block;
+	width: 30%;
+}
+h1 {
+	margin: 30px;
+}
+img.ava {
+	display: block;
+	margin: 0 auto 30px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
+.soc-icons {
+	width: 100%;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+.vk, .fb, .gp, .ntl {
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	margin: 30px 20px;
+}
+.vk {
+	background: url(/img/vk.png) no-repeat center center;
+	background-size: 35px 35px;
+}
+.fb {
+	background: url(/img/fb.png) no-repeat center center;
+	background-size: 35px 35px;
+}
+.gp {
+	background: url(/img/g-plus.png) no-repeat center center;
+	background-size: 35px 35px;
+}
+.ntl {
+	background: url(/img/ntl.png) no-repeat center center;
+	background-size: 35px 35px;
+}
