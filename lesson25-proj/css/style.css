@@ -46,65 +46,105 @@ header > .item-1 {
 @media (max-width:320px) {
 	.kitty > img {
 		width: 70%;
+		-webkit-motion-path: path('M-150,100 240,100 z');
+		-moz-motion-path: path('M-150,100 240,100 z');
+		-ms-motion-path: path('M-150,100 240,100 z');
+		-o-motion-path: path('M-150,100 240,100 z');
 		motion-path: path('M-150,100 240,100 z');
-		// motion-offset: 50%;
-		animation: rainbow-kitty 5s infinite linear;
+		-webkit-animation-timing-function: rainbow-kitty 5s infinite linear;
+		-o-animation-timing-function: rainbow-kitty 5s infinite linear;
+		animation-timing-function: rainbow-kitty 5s infinite linear;
 	}
 }
 @media (min-width:321px) and (max-width:480px) {
 	.kitty > img {
 		width: 60%;
+		-webkit-motion-path: path('M-150,100 360,100 z');
+		-moz-motion-path: path('M-150,100 360,100 z');
+		-ms-motion-path: path('M-150,100 360,100 z');
+		-o-motion-path: path('M-150,100 360,100 z');
 		motion-path: path('M-150,100 360,100 z');
-		// motion-offset: 50%;
-		animation: rainbow-kitty 5s infinite linear;
+		-webkit-animation-timing-function: rainbow-kitty 5s infinite linear;
+		-o-animation-timing-function: rainbow-kitty 5s infinite linear;
+		animation-timing-function: rainbow-kitty 5s infinite linear;
 	}
 }
 @media (min-width:481px) and (max-width:760px) {
 	.kitty > img {
 		width: 50%;
+		-webkit-motion-path: path('M-150,100 580,100 z');
+		-moz-motion-path: path('M-150,100 580,100 z');
+		-ms-motion-path: path('M-150,100 580,100 z');
+		-o-motion-path: path('M-150,100 580,100 z');
 		motion-path: path('M-150,100 580,100 z');
-		// motion-offset: 50%;
-		animation: rainbow-kitty 5s infinite linear;
+		-webkit-animation-timing-function: rainbow-kitty 5s infinite linear;
+		-o-animation-timing-function: rainbow-kitty 5s infinite linear;
+		animation-timing-function: rainbow-kitty 5s infinite linear;
 	}
 }
 @media (min-width:761px) and (max-width:1000px) {
 	.kitty > img {
 		width: 40%;
+		-webkit-motion-path: path('M-150,100 690,100 z');
+		-moz-motion-path: path('M-150,100 690,100 z');
+		-ms-motion-path: path('M-150,100 690,100 z');
+		-o-motion-path: path('M-150,100 690,100 z');
 		motion-path: path('M-150,100 690,100 z');
-		// motion-offset: 50%;
-		animation: rainbow-kitty 5s infinite linear;
+		-webkit-animation-timing-function: rainbow-kitty 5s infinite linear;
+		-o-animation-timing-function: rainbow-kitty 5s infinite linear;
+		animation-timing-function: rainbow-kitty 5s infinite linear;
 	}
 }
 @media (min-width:1001px) and (max-width:1199px) {
 	.kitty > img {
 		width: 40%;
+		-webkit-motion-path: path('M-150,100 780,100 z');
+		-moz-motion-path: path('M-150,100 780,100 z');
+		-ms-motion-path: path('M-150,100 780,100 z');
+		-o-motion-path: path('M-150,100 780,100 z');
 		motion-path: path('M-150,100 780,100 z');
-		// motion-offset: 50%;
-		animation: rainbow-kitty 5s infinite linear;
+		-webkit-animation-timing-function: rainbow-kitty 5s infinite linear;
+		-o-animation-timing-function: rainbow-kitty 5s infinite linear;
+		animation-timing-function: rainbow-kitty 5s infinite linear;
 	}
 }
 @media (min-width:1200px) and (max-width:1480px) {
 	.kitty > img {
 		width: 40%;
+		-webkit-motion-path: path('M-150,100 1000,100 z');
+		-moz-motion-path: path('M-150,100 1000,100 z');
+		-ms-motion-path: path('M-150,100 1000,100 z');
+		-o-motion-path: path('M-150,100 1000,100 z');
 		motion-path: path('M-150,100 1000,100 z');
-		// motion-offset: 50%;
-		animation: rainbow-kitty 5s infinite linear;
+		-webkit-animation-timing-function: rainbow-kitty 5s infinite linear;
+		-o-animation-timing-function: rainbow-kitty 5s infinite linear;
+		animation-timing-function: rainbow-kitty 5s infinite linear;
 	}
 }
 @media (min-width:1481px) and (max-width:1660px) {
 	.kitty > img {
 		width: 30%;
+		-webkit-motion-path: path('M-150,100 1200,100 z');
+		-moz-motion-path: path('M-150,100 1200,100 z');
+		-ms-motion-path: path('M-150,100 1200,100 z');
+		-o-motion-path: path('M-150,100 1200,100 z');
 		motion-path: path('M-150,100 1200,100 z');
-		// motion-offset: 50%;
-		animation: rainbow-kitty 5s infinite linear;
+		-webkit-animation-timing-function: rainbow-kitty 5s infinite linear;
+		-o-animation-timing-function: rainbow-kitty 5s infinite linear;
+		animation-timing-function: rainbow-kitty 5s infinite linear;
 	}
 }
 @media (min-width:1661px) {
 	.kitty > img {
 		width: 25%;
+		-webkit-motion-path: path('M-150,100 1500,100 z');
+		-moz-motion-path: path('M-150,100 1500,100 z');
+		-ms-motion-path: path('M-150,100 1500,100 z');
+		-o-motion-path: path('M-150,100 1500,100 z');
 		motion-path: path('M-150,100 1500,100 z');
-		// motion-offset: 50%;
-		animation: rainbow-kitty 5s infinite linear;
+		-webkit-animation-timing-function: rainbow-kitty 5s infinite linear;
+		-o-animation-timing-function: rainbow-kitty 5s infinite linear;
+		animation-timing-function: rainbow-kitty 5s infinite linear;
 	}
 }
 @keyframes rainbow-kitty {
