@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin: 0;
+  font-size: 14px;
+  color: #515151;
+  background-color: #ebebeb;
+}
+
+p {
+  line-height: 26px;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1024px;
+}
+
+.header {
+  background-color: #373c3f;
+}
+
+.menu {
+  margin: 0;
+  padding: 35px 45px 0 45px;
+  list-style-type: none;
+}
+
+.menu-item {
+  display: inline-block;
+  padding: 0 30px 35px 0;
+  vertical-align: center;
+}
+
+.menu-item .menu-link {
+  font-size: 15px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.menu-item .menu-link:hover {
+  color: #15b0c3;
+}
+.banner {
+  padding: 130px 75px;
+  background-color: #15b0c3;
+}
+.banner-title {
+  margin: 0;
+  width: 80%;
+  font-size: 60px;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+.banner-link {
+  padding-top: 30px;
+  font-size: 0;
+}
+
+.banner-link-text {
+  display: inline-block;
+  width: 82%;
+  font-size: 40px;
+  color: rgba(255, 255, 255, .6);
+}
+
+.banner-link-nav {
+  display: inline-block;
+  width: 18%;
+  font-size: 42px;
+  color: #ffffff;
+}
+
+.info {
+  font-size: 0;
+  background-color: #27212c;
+}
+
+.info-title {
+  display: inline-block;
+  margin: 0;
+  width: 800px;
+  padding: 93px 75px;
+  font-size: 30px;
+  font-weight: normal;
+  color: #9787a6;
+}
+
+.info-nav {
+  display: inline-block;
+  width: 224px;
+  padding: 93px 60px;
+  font-size: 30px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #bc3183;
+}
+
+.gallery {
+  font-size: 0;
+  overflow: hidden;
+}
+
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.gallery-nav {
+  display: inline-block;
+  float: left;
+  width: 33.3333%;
+  height: 297px;
+  font-size: 36px;
+  line-height: 297px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #5b0fa1;
+}
+
+.galery-content {
+  display: inline-block;
+  float: left;
+  width: 33.3333%;
+  height: 297px;
+  font-size: 36px;
+  line-height: 297px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #5b0fa1;
+}
+
+.gallery-item {
+  width: 100%;
+  height: auto;
+}
+
+.main-content {
+  padding: 75px;
+  font-size: 0;
+}
+
+.main-content-title {
+  font-size: 30px;
+  font-weight: normal;
+  color: #088ca5;
+}
+
+.main-content-left {
+  display: inline-block;
+  vertical-align: top;
+  width: 46%;
+  font-size: 14px;
+}
+
+.main-content-right {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 8%;
+  width: 46%;
+  font-size: 14px;
+}
+
+.footer {
+  padding: 20px 0;
+  text-align: center;
+  background-color: #27212c;
+}
+
+.copyright {
+  color: #ffffff;
+}
