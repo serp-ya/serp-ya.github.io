@@ -1,0 +1,474 @@
+body {
+  color: #121212;
+}
+h4,
+.h4 {
+  font-size: 2.583rem;
+}
+.title_big_light {
+  font-size: 6.217rem;
+  font-family: "OpenSansLight", sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.title_bold {
+  font-size: 16px;
+  font-family: "OpenSansBold", sans-serif;
+  color: #121212;
+}
+.detach {
+  margin-top: 10px;
+  margin-bottom: 11px;
+  display: inline-block;
+}
+.text_red_big {
+  font-size: 56px;
+  font-family: "OpenSansExtraBold", sans-serif;
+  color: #d5152c;
+}
+.text_red_small {
+  font-size: 36px;
+  font-family: "OpenSansExtraBold", sans-serif;
+  color: #d5152c;
+}
+.text_black_b {
+  font-size: 12px;
+  font-family: "OpenSansExtraBold", sans-serif;
+}
+.subtitle {
+  font-size: 1.59rem;
+  font-family: "OpenSansRegularItalic", sans-serif;
+}
+.subtitle_light {
+  font-size: 3.238rem;
+  font-family: "OpenSansLight", sans-serif;
+  color: #ffffff;
+}
+.no_padding {
+  padding: 0;
+}
+.sell_banner {
+  margin-top: 32px;
+  height: 350px;
+  background-image: url(../img/banner/sell_banner_bg.jpg);
+}
+.sell_title {
+  position: relative;
+  padding: 7% 0 6%;
+  height: 100%;
+  background-image: url(../img/banner/banner_decor.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.sell_img_block {
+  height: 100%;
+  line-height: 350px;
+}
+.sell_img_picture {
+  vertical-align: bottom;
+}
+.sell_online {
+  margin: 105px auto 10px;
+}
+.sell_online_list {
+  padding-top: 52px;
+  padding-bottom: 25px;
+  background-image: url(../img/sell_online/catalog.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.sell_online_list-item {
+  display: inline-block;
+  margin-left: 14px;
+  margin-bottom: 10px;
+  width: 100%;
+  font-size: 18px;
+  font-family: "OpenSansLight", sans-serif;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+.sell_online_list-item:before {
+  position: absolute;
+  left: 2px;
+  display: inline-block;
+  content: url(../img/sell_online/check_red.svg);
+}
+.sell_form {
+  margin-top: 68px;
+  padding-bottom: 50px;
+}
+.sell_form_title {
+  font-size: 2.609rem;
+  font-family: "OpenSansExtraBold", sans-serif;
+  color: #d5152c;
+}
+.sell_form_fields {
+  padding-top: 40px;
+}
+.sell_form_row {
+  font-size: 0;
+}
+.sell_form_input {
+  display: inline-block;
+  margin-bottom: 18px;
+  padding: 0 10px;
+  width: 50%;
+  font-size: 12px;
+}
+.sell_form_selected {
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+.sell_form_textarea {
+  width: 100%;
+  height: 85px;
+  font-size: 16px;
+}
+.sell_form_list {
+  padding-top: 30px;
+  padding-bottom: 25px;
+}
+.sell_form_list-item {
+  display: inline-block;
+  margin-bottom: 18px;
+  padding-left: 35px;
+  width: 100%;
+  font-size: 16px;
+  font-family: "OpenSansLight", sans-serif;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+.sell_form_list-item:before {
+  position: absolute;
+  left: 15px;
+  content: url(../img/form/check_black.png);
+}
+.sell_form_confirm {
+  padding-left: 55px;
+  line-height: 60px;
+}
+.sell_form_confirm_check {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+.sell_form_confirm_offer {
+  display: inline-block;
+  width: 38%;
+  line-height: 1.6;
+  vertical-align: middle;
+  text-decoration: underline;
+  color: #121212;
+}
+.sell_form_confirm_submit {
+  display: inline-block;
+  border: none;
+  border-radius: 0;
+  margin-left: 17px;
+  height: 60px;
+  width: 170px;
+  font-size: 16px;
+  background-color: #d5152c;
+  color: #ffffff;
+}
+.sell_form_confirm_submit.off {
+  background-color: #ce4f5f;
+  color: #ffffff;
+}
+input.sell_form_confirm_check {
+  margin: 10px;
+}
+button.btn.dropdown-toggle.btn-default {
+  height: 45px;
+}
+.metering_title {
+  margin-top: 50px;
+  margin-bottom: 15px;
+  display: block;
+  font-size: 1.241rem;
+  font-family: "OpenSansRegular", sans-serif;
+  text-align: center;
+}
+.metering_lable {
+  display: block;
+  font-size: 12px;
+  font-family: "OpenSansLight", sans-serif;
+}
+.metering_lable_price {
+  display: inline-block;
+  margin-right: 15px;
+  font-size: 12px;
+  font-family: "OpenSansRegular", sans-serif;
+}
+.metering_gallery {
+  position: relative;
+  width: 100%;
+  font-size: 0;
+}
+.metering_image {
+  position: relative;
+  margin-bottom: 10px;
+  width: 50%;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.metering_image_container {
+  position: relative;
+}
+.metering_image_container:nth-child(2n) {
+  right: -10px;
+}
+.user-info {
+  padding: 0 5px;
+  width: 95%;
+  height: 45px;
+}
+.user-info_price {
+  padding: 0 5px;
+  width: 59%;
+  height: 45px;
+  text-align: right;
+}
+.fur_coat_size_img {
+  top: 17px;
+  left: 0px;
+}
+.upload_images {
+  margin-top: 20px;
+}
+.upload_images_input {
+  border: none;
+  width: 20%;
+  background-color: inherit;
+  color: #121212;
+  text-align: left;
+}
+.upload_images_input:before {
+  content: "+";
+  margin-right: 10px;
+}
+.upload_images_container {
+  width: 80%;
+  display: inline-block;
+  vertical-align: top;
+}
+.upload_images_container .thumb-image {
+  margin-right: 15px;
+  margin-bottom: 15px;
+  width: 90px;
+  height: 90px;
+  background-size: cover;
+}
+.image_preview {
+  margin-right: 15px;
+  margin-bottom: 15px;
+  width: 90px;
+  height: 90px;
+  background-size: cover;
+}
+.image_examples {
+  margin: 10px 0;
+}
+.image_examples_lable {
+  line-height: 1.4;
+  display: inline-block;
+  vertical-align: middle;
+}
+.image_examples_lable_box {
+  display: inline-block;
+  width: 20%;
+  font-size: 12px;
+  line-height: 8;
+}
+.col-xs-12.image_examples {
+  display: inline-block;
+  width: 80%;
+}
+.down_btn {
+  margin: 4.6%;
+}
+.down_btn_img {
+  transition: all .6s;
+}
+.down_btn_img:hover {
+  transform: scale(1.3, 1.3);
+  transition: all .6s;
+}
+.to_sell {
+  margin-top: 85px;
+  margin-bottom: 86px;
+}
+.to_sell_content {
+  margin-top: 43px;
+  text-align: center;
+}
+.to_sell_block {
+  display: inline-block;
+  border: 1px solid rgba(213, 21, 44, 0.25);
+  width: 432px;
+  height: 164px;
+  line-height: 164px;
+}
+.to_sell_img {
+  position: relative;
+  right: 10px;
+  display: inline-block;
+}
+.to_sell_text {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 1;
+  text-align: left;
+  vertical-align: middle;
+}
+.to_sell_subtitle {
+  display: block;
+}
+.cooperation {
+  margin-top: 86px;
+  margin-bottom: 63px;
+}
+.cooperation_items {
+  margin-top: 40px;
+  text-align: center;
+}
+.cooperation_card {
+  margin: 0 auto;
+  width: 160px;
+}
+.cooperation_img {
+  height: 120px;
+  background-image: url(../img/cooperation/fringing.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  line-height: 120px;
+}
+.cooperation_text {
+  display: block;
+  margin: 22px auto;
+  font-size: 16px;
+  font-family: "OpenSansLight", sans-serif;
+}
+.cooperation_title_bottom {
+  display: block;
+  margin: 15px auto;
+  font-size: 20px;
+  color: #d5152c;
+}
+.cities {
+  margin-top: 63px;
+}
+.cities_title {
+  font-size: 32px;
+}
+.cities_map {
+  position: relative;
+  height: 614px;
+  background-image: url(../img/cities/map.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.cities_marker {
+  position: absolute;
+}
+.clauses {
+  margin: 18px auto;
+  width: 1030px;
+}
+.clauses_red_num {
+  display: inline-block;
+  border-right: 4px solid #d5152c;
+  padding-right: 10px;
+  height: 58px;
+  font-size: 32px;
+  font-family: "OpenSansExtraBold", sans-serif;
+  line-height: 0.7;
+  vertical-align: top;
+  color: #d5152c;
+}
+.clauses_text {
+  position: relative;
+  top: -5px;
+  display: inline-block;
+  margin-left: 10px;
+  width: 75%;
+  font-size: 18px;
+  font-family: "OpenSansLight", sans-serif;
+  line-height: 1.2;
+}
+.clauses_subtext {
+  margin: 40px auto;
+}
+.clauses_subtext_p {
+  font-size: 1.403rem;
+  font-family: "OpenSansLight", sans-serif;
+}
+#mark_1 {
+  top: 40.8%;
+  left: 19%;
+}
+#mark_2 {
+  top: 39.9%;
+  left: 20%;
+}
+#mark_3 {
+  top: 47%;
+  left: 21.2%;
+}
+#mark_4 {
+  top: 48.2%;
+  left: 35.8%;
+}
+#mark_5 {
+  top: 57.8%;
+  left: 26.6%;
+}
+#mark_6 {
+  top: 57.1%;
+  left: 55%;
+}
+#mark_7 {
+  top: 62.3%;
+  left: 14.9%;
+}
+#mark_8 {
+  top: 63%;
+  left: 16.6%;
+}
+#mark_9 {
+  top: 68.4%;
+  left: 76.8%;
+}
+#mark_10 {
+  top: 76%;
+  left: 49.7%;
+}
+.popover.right {
+  border-radius: 0;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #121212;
+  font-size: 12px;
+  color: #ffffff;
+}
+.popover.right .arrow {
+  top: 35%!important;
+  border-right-color: #121212;
+}
+.popover.right .arrow:after {
+  border-right-color: #121212;
+}
+.popover.right .popover-title {
+  border-bottom: none;
+  padding-top: 17px;
+  padding-bottom: 0;
+  background-color: #121212;
+  font-size: 12px;
+  font-weight: normal;
+}
+.popover-content {
+  padding: 6px 14px 14px;
+}
